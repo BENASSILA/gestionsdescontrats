@@ -1,0 +1,29 @@
+{
+  "fileName": "id_1694012584144",
+  "namespace": "apps/ui.s2p.mm.pur.ctr.maintain.sts1/appVariants/customer.app.gestionsdescontratsachats/changes",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "creation": "2023-09-06T15:03:04.144Z",
+  "packageName": "$TMP",
+  "reference": "customer.app.gestionsdescontratsachats",
+  "support": {
+    "generator": "add-odata-service-and-model-generator"
+  },
+  "changeType": "appdescr_ui5_addNewModel",
+  "content": {
+    "dataSource": {
+      "customer.avenant": {
+        "uri": "/sap/opu/odata/sap/ZMM_PUR_OA_MAINTAIN_SRV",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+      }
+    },
+    "model": {
+      "customer.avenant": {
+        "dataSource": "customer.avenant"
+      }
+    }
+  }
+}
